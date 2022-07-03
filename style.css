@@ -7,11 +7,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roberto', sans-serif;
+    font-family: 'Poppins';
 }
 body{
     background: whitesmoke;
-    font-family: 'poppins', sans-serif;
     height: 900px;
 }
 .header-inner-container, .header-main-container {
@@ -67,7 +66,6 @@ a{
     height: 714px;
     margin:auto;
     background-color: #fff;
-    font-family: 'Poppins';
     border: 1px solid rgba(68, 75, 171, 0.1);
 }
 
@@ -122,7 +120,7 @@ form input{
     color: white;
     border: none;
     border-radius: 6px;
-    font-family: 'Poppins';
+    font-weight: 600;
     font-style: normal;
     font-size: 20px;
     cursor: pointer;
