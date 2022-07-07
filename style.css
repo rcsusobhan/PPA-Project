@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url('./assets/Gilroy-bold/Gilroy-Bold.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roberto', sans-serif;
+}
+body{
+    background: whitesmoke;
+    font-family: 'poppins', sans-serif;
+    height: 900px;
+}
+.header-inner-container, .header-main-container {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.header-main-container {
+    display: block;
+    justify-content: center;
+    background-color: #fff;
+}
+.HeaderContainer {
+    display: flex;
+    top: 0;
+    background-color: #fff;
+    max-width: 100%;
+    padding: 0.25rem 0;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+    margin-bottom: 30px;
+    height: 80px;
+}
+
+.PPLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.PPName {
+    color: #444bab;
+    margin: 0 0 0 5%;
+    font-size: 1 rem;
+    font-family: "Gilroy-Bold";
+    padding-top: 3px;
+    margin-left: 10px;
+    line-height: 1.56vw;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.Set-Password{
+    width: 500px;
+    height: 714px;
+    margin: auto;
+    background-color: #fff;
+    font-family: 'Poppins';
+    border: 1px solid rgba(68, 75, 171, 0.1);
+}
+
+.password{
+    margin-top: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 45px;
+    text-align: center;
+    color: #4F516B;
+}
+
+#eye{
+    position: relative;
+    float: right;
+    margin: 10px;
+    bottom: 35px;
+    cursor: pointer;
+    color: #4F516B;
+}
+#eye1{
+    position: relative;
+    bottom: 35px;
+    float: right;
+    margin: 10px;
+    color: #4F516B;
+    cursor: pointer;
+}
+
+form{
+    margin-top: 45px;
+    max-width: 450px;
+    width: 100%;
+    margin-left: 25px;
+}
+
+form label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #737171;
+}
+
+form input{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.05rem;
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 6px;
+    outline: none;
+}
+.form-control{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1vw;
+}
+.signup{
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+}
+.signup:hover{
+    background: linear-gradient(-93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+}
+@media only screen and (max-width: 750px){
+    .Set-Password{
+        max-width: 400px;
+    }
+    form button, input{
+        max-width: 350px;
+    }
+    #eye,#eye1{
+        left: -50px;
+        bottom: -2px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .Set-Password{
+        max-width: 350px;
+    }
+    form button, input{
+        max-width: 300px;
+        height: 50px;
+    }
+    #eye,#eye1{
+        bottom: -10px;
+    }
+}
